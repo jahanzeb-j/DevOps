@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.devops</groupId>
-	<artifactId>jahanzeb</artifactId>
+	<artifactId>devops</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jahanzeb</name>
+	<name>devops</name>
 	<description>Demo DevOps project for Spring Boot</description>
 	<packaging>war</packaging>
 
@@ -38,16 +38,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
-			<version>1.5.3.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
-			<version>1.5.3.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

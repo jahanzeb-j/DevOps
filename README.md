@@ -3,3 +3,4 @@ DevOps Practice
 
 - Jenkins [Added]
 - Docker x
+- Testing

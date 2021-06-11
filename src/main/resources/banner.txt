@@ -1,0 +1,10 @@
+ ${AnsiColor.GREEN}=================================================
+  ${AnsiColor.GREEN}██████╗ ███████╗██╗   ██╗${AnsiColor.CYAN} ██████╗ ██████╗ ███████╗
+  ${AnsiColor.GREEN}██╔══██╗██╔════╝██║   ██║${AnsiColor.CYAN}██╔═══██╗██╔══██╗██╔════╝
+  ${AnsiColor.GREEN}██║  ██║█████╗  ██║   ██║${AnsiColor.CYAN}██║   ██║██████╔╝███████╗
+  ${AnsiColor.GREEN}██║  ██║██╔══╝  ╚██╗ ██╔╝${AnsiColor.CYAN}██║   ██║██╔═══╝ ╚════██║
+  ${AnsiColor.GREEN}██████╔╝███████╗ ╚████╔╝ ${AnsiColor.CYAN}╚██████╔╝██║     ███████║
+  ${AnsiColor.GREEN}╚═════╝ ╚══════╝  ╚═══╝  ${AnsiColor.CYAN} ╚═════╝ ╚═╝     ╚══════╝
+ ${AnsiColor.GREEN}=================================================
+${AnsiColor.BRIGHT_BLUE}:: DevOps 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://jahanzebjabbar.com ::${AnsiColor.DEFAULT}

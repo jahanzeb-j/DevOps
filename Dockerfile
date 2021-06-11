@@ -14,7 +14,7 @@ RUN mvn package
 FROM openjdk
 
 #maintainer
-MAINTAINER dstar55@yahoo.com
+MAINTAINER jahanzeb@hotmail.com
 #expose port 9090
 EXPOSE 9090
 

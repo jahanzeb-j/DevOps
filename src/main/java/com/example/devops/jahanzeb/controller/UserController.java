@@ -16,7 +16,7 @@ public class UserController {
     @RequestMapping("/")
     public String user()
     {
-        return "Hello User !!";
+        return " User Controller !!";
     }
 
     @GetMapping("/new")

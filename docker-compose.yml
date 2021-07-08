@@ -1,0 +1,42 @@
+version: '3'
+services:
+  spring-app:
+    container_name: spring-app
+    build: .
+    ports:
+      - 9090:9090
+
+
+#version: '3'
+#services:
+#  spring-app-staging:
+#    container_name: spring-app-staging
+#    build: .
+#    environment:
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/testing-db
+#      SPRING_DATASOURCE_USERNAME: postgres
+#      SPRING_DATASOURCE_PASSWORD: admin
+#    ports:
+#      - 9008:8080
+#    depends_on:
+#      - db
+#    logging:
+#      driver: "json-file"
+#      options:
+#        max-size: "10m"
+#        max-file: "10"
+#  db:
+#    container_name: postgres-sample-staging
+#    image: postgres:9
+#    volumes:
+#      - sample_db:/var/lib/postgresql/data
+#    environment:
+#      - POSTGRES_PASSWORD=admin
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_DB=testing-db
+#      - PGDATA=/var/lib/postgresql/data/pgdata
+#    ports:
+#      - 5434:5432
+#
+#volumes:
+#  sample_db: {}

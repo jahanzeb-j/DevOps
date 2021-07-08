@@ -1,10 +1,22 @@
 # DevOps
 DevOps Practice
 
-- Jenkins [Added]
-- Docker [Added]
-- Auto Deploy [x]
+- Jenkins [✔]
+- Docker [✔]
+- Swagger [✔]
+- Docker Compose [✔]
+- Auto Deploy [✔]
 - Testing [x]
+
+### Run Docker Compose
+```
+docker compose up
+```
+
+#### Stop Containers
+```
+docker compose down
+```
 
 ### Build docker image
 ```

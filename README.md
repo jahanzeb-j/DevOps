@@ -15,7 +15,7 @@ DevOps Practice
 - Swagger [✔]
 - Docker Compose [✔]
 - Auto Deploy [✔]
-- Testing [x]
+- Testing [✖]
 
 ### Run Docker Compose
 ```
